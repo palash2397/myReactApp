@@ -28,9 +28,9 @@ const FormText = (props) => {
                 <div className="mb-3 ">
                     <textarea className="form-control" onChange={OnChange}  style={{backgroundColor: props.mode === 'dark' ? '#21201c': 'white', color: props.mode=== "light"?"black":"white"}} value ={text}id="exampleFormControlTextarea1" rows="8">text</textarea>
                 </div>
-                <button className="btn btn-primary mx-1" onClick={Upclicked}>upperCase</button>
-                <button className="btn btn-primary mx-1" onClick={Downclicked}>lowerCase</button>
-                <button className="btn btn-primary mx-1" onClick={Clearclicked}>clearText</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={Upclicked}>upperCase</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={Downclicked}>lowerCase</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={Clearclicked}>clearText</button>
 
             </div>
             <div className="container my-2" style={{color: props.mode=== "light"?"black":"white"}}>
